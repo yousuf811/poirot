@@ -127,5 +127,4 @@ def FindBooksIDontHave(all_books, books_i_have):
     if dont_exist:
         print 'Books I have but don\'t exist:\n%s' % '\n'.join(sorted(dont_exist))
 
-
 FindBooksIDontHave(ALL_BOOKS, BOOKS_I_HAVE)
